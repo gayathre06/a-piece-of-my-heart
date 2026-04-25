@@ -1,9 +1,4 @@
-import { defineConfig } from 'vite'
-
-export default defineConfig({
-  base: '/a-piece-of-my-heart/'
-})
-  import tailwindcss from '@tailwindcss/vite';
+import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
 import {defineConfig, loadEnv} from 'vite';
 
